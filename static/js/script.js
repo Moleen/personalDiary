@@ -63,7 +63,7 @@ function posting() {
     contentType: false,
     processData: false,
     success: function (response) {
-      console.log(response);
+      alert(response.msg);
       window.location.reload();
     },
   });
